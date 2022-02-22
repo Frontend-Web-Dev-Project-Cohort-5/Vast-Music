@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# **Vast Music**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Overview**
 
-## Available Scripts
+This is a react-based app that displays information about movie soundtracks. It's intended to be used as a search app for movie theme-songs and soundtracks. Feel free to fork and upgrade this repository!
 
-In the project directory, you can run:
+### **Inspiration**
 
-### `npm start`
+The project was inspired by the desires of movie lovers to have all the information they can about the soundtrack of their favorite movies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Assets**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- App flow
+- Paper wireframe
+- Low fidelity wireframe
+- High fidelity wireframe
 
-### `npm test`
+### **Prototypes**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Low fidelity prototype: ...link
+High fidelity prototype: ....link
+Low fidelity prototype(mobile): ...link
+High fidelity prototype (mobile): ....link
 
-### `npm run build`
+### **Tools and Technologies Used**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- #### **For Project Management**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. GitHub: ....link
+2. Trello: ...link
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- #### **For Design**
 
-### `npm run eject`
+1. Figma
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- #### **For Development**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Bootstrap
+2. Sass
+3. React
+4. React Hooks (useState, useEffect, custom hooks(useFetch))
+5. React Router
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **App Features**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Pages;
+2. Search input and display
+3. Search Filter
 
-## Learn More
+### **How to Navigate**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Open App: ..link
+2. Input the Movie Title that you want to get it's soundtrack
+3. Click on the search Icon
+4. Select your choice from the search results given
+5. Then you can get the playlist of the soundtrack for your selected movie
+6. To know more about us, you can check out our ...about us... page. you can also reach out to us using the form provided in our ....contact us... page.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **How to Contribute to this Project**
 
-### Code Splitting
+We encourage contributions to this project, please feel free to clone/download. To contribute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the project: in your git bash terminal, in the folder of your choice (documents, videos, download, etc) run the command _git clone https://github.com/Frontend-Web-Dev-Project-Cohort-5/Vast-Movies.git_. this will automatically download the project to your system. you can alternatively download the zip file from the clone option in the repository and unzip/extract.
+2. Open the project folder using VS code and make your changes. push to github and create a pull request. we will check out your changes as soon as we can.
 
-### Analyzing the Bundle Size
+### **Future Feature**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Users can download the music
+- Users can play the music on the app
+- Lyrics will be displayed for users to sing along
 
-### Making a Progressive Web App
+### **Contributors**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Mbonu Jennifer
+  - [GitHub Profile](https://github.com/MbonuJennifer)
+  - [Portfolio Site](https://github.com/MbonuJennifer)
+- Pius Ashogbon
+  - [GitHub Profile](https://github.com/PiusAsh)
+  - [Portfolio Site](https://github.com/MbonuJennifer)
+- Samuel Ekejuba
+  - [GitHub Profile](https://github.com/frasam)
+  - [Portfolio Site](https://github.com/MbonuJennifer)
+- Victor Ekundayo
+  - [GitHub Profile](https://github.com/MbonuJennifer)
+  - [Portfolio Site](https://github.com/Deepizel)
+- Fahm Abdullahi
+  - [GitHub Profile](https://github.com/FatScythe)
+  - [Portfolio Site](https://github.com/MbonuJennifer)
+-
+- [Pius Ashogbon](https://github.com/PiusAsh)
+- [Samuel Ekejuba](https://github.com/frasam)
+- [Victor Ekundayo](https://github.com/Deepizel)
+- [Fahm Abdullahi](https://github.com/FatScythe)
 
-### Advanced Configuration
+#### **Credits**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [LSETF](https://lsetf.ng/)
+- [USAID](https://www.usaid.gov/)
+- [8th Gear Project Limited](https://www.8thgearpartners.com/)
+- [Innkeeper Work](https://innkeeper.work/)
