@@ -1,8 +1,10 @@
 // import logo from './logo.svg'
+import React from 'react'
 import './App.css'
+import NavBar from './Conponents/NavBar'
 
 function App() {
-  return <h3>good god</h3>
+  return <NavBar />
 }
 
 export default App
