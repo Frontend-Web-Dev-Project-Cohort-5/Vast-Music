@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-light bg-dark">
+    <nav className="navbar navbar-light bg-black">
       <div className="container-fluid">
-        <a className="navbar-brand text-white" href="#">
+        <Link to="/" className="navbar-brand text-white">
           <img
             src=""
             alt=""
@@ -13,27 +14,29 @@ const NavBar = () => {
             className="d-inline-block align-text-top ml-5"
           />
           Music
-        </a>
+        </Link>
         <ul className="nav justify-content-end">
           <li className="nav-item">
-            <a className="nav-link text-white" aria-current="page" href="#">
+            <Link to="/" className="nav-link text-white" aria-current="page">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white ml-5" href="#">
+            <Link to="about" className="nav-link text-white ml-5">
               About Us
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white ml-5" href="#">
+            <Link to="blog" className="nav-link text-white ml-5">
               Blog
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <button className="nav-link text-white btn btn-outline-success ml-5">
-              Contact
-            </button>
+            <Link to="contact" className="nav-link text-white" aria-current>
+              <button className="btn btn-outline-success" type="submit">
+                Contact
+              </button>
+            </Link>
           </li>
         </ul>
       </div>
