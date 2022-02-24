@@ -1,6 +1,6 @@
 // import logo from './logo.svg'
 import React from 'react'
-import './App.css'
+import './Sass/main.css'
 import NavBar from './Conponents/NavBar'
 import { Routes, Route } from 'react-router-dom'
 // import Card from './Components/Card'
