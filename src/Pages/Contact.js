@@ -1,30 +1,6 @@
 import React from 'react'
-// import { ToastContainer, toast } from 'react-toastify'
-// import 'react-toastify/dist/ReactToastify.css'
-// import firebaseDB from './firebase'
 
 function Contact() {
-  //   const [state, setState] = useState({
-  //     name: '',
-  //     email: '',
-  //     subject: '',
-  //     message: '',
-  //   })
-  // const { name, email, subject, message } = state
-  // const handleSubmit = (e) => {
-  //   e.preventDefault()
-  //   if (!name || !email || !subject || !message) {
-  //     toast.error('Please provide value in each input field')
-  //   } else {
-  //     firebaseDB.child('contacts').push(state)
-  //     setState({ name: '', email: '', subject: '', message: '' })
-  //     toast.success('Form Submitted Successfully')
-  //   }
-  // }
-  // const handleInputChange = (e) => {
-  //   let { name, value } = e.target
-  //   setState({ ...state, [name]: value })
-  // }
   return (
     <section className="contact-section">
       <div className="container">
@@ -36,11 +12,7 @@ function Contact() {
                 <div className="col-md-6">
                   <div className="contact-wrap w-100 p-lg-5 p-4">
                     <h3 className="mb-4">Send us a message</h3>
-                    <form
-                      id="contactForm"
-                      className="contactForm"
-                      // onSubmit={handleSubmit}
-                    >
+                    <form id="contactForm" className="contactForm">
                       <div className="row">
                         <div className="col-md-12 mb-1">
                           <div className="form-group">
@@ -49,8 +21,6 @@ function Contact() {
                               className="form-control"
                               name="name"
                               placeholder="Name"
-                              // onChange={handleInputChange}
-                              // value={name}
                             />
                           </div>
                         </div>
@@ -61,8 +31,6 @@ function Contact() {
                               className="form-control"
                               name="email"
                               placeholder="Email"
-                              // onChange={handleInputChange}
-                              // value={email}
                             />
                           </div>
                         </div>
@@ -73,8 +41,6 @@ function Contact() {
                               className="form-control"
                               name="subject"
                               placeholder="Subject"
-                              // onChange={handleInputChange}
-                              // value={subject}
                             />
                           </div>
                         </div>
@@ -87,8 +53,6 @@ function Contact() {
                               placeholder="Message"
                               cols="30"
                               rows="6"
-                              // onChange={handleInputChange}
-                              // value={message}
                             ></textarea>
                           </div>
                         </div>
