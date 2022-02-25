@@ -1,6 +1,6 @@
 // import logo from './logo.svg'
 import React from 'react'
-import './App.css'
+import './Sass/main.css'
 import NavBar from './Conponents/NavBar'
 import { Routes, Route } from 'react-router-dom'
 // import Card from './Components/Card'
@@ -11,11 +11,11 @@ import Contact from './Pages/Contact'
 import Blog from './Pages/Blog'
 import NoPage from './Pages/NoPage' 
 
-
 function App() {
   return (
     <>
       <NavBar />
+      
 
       <Routes>
         <Route exact path="/" element={<Home />} />

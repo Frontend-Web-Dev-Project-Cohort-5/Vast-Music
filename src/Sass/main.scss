@@ -1,0 +1,142 @@
+@use './variables' as *;
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+// NavBar
+.contact-section {
+  padding: 7em 0;
+}
+
+.wrapper {
+  width: 100%;
+  -webkit-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+}
+
+.contact-wrap {
+  background: rgb(0, 14, 5);
+
+  background-color: rgb(10, 0, 0) 100%;
+}
+
+h3 {
+  color: white;
+}
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.form-control {
+  height: 62px;
+  background: transparent;
+  font-size: 16px;
+  border-radius: 0px;
+  box-shadow: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  &:focus,
+  &:active {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+textarea.form-control {
+  height: inherit !important;
+  margin-top: 5px;
+}
+
+.contactForm {
+  .form-control {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0;
+  }
+}
+
+.info-wrap {
+  h3 {
+    color: #000;
+    position: relative;
+    &:after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      content: '';
+    }
+  }
+  .dbox {
+    width: 100%;
+    // color: rgba(255,255,255,.8);
+    margin-bottom: 25px;
+    &:last-child() {
+      margin-bottom: 0;
+    }
+    p {
+      margin-bottom: 0;
+      span {
+        font-weight: 400;
+        color: #000;
+      }
+      a {
+        color: rgba(0, 0, 0, 0.3);
+      }
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      span {
+        font-size: 20px;
+        color: #000;
+      }
+    }
+    .text {
+      width: calc(100% - 50px);
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  line-height: 1.5;
+  font-weight: 400;
+  color: white;
+}
+
+a {
+  transition: 0.3s all ease;
+
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+#contactForm {
+  .form-control {
+    font-size: 16px;
+  }
+}
