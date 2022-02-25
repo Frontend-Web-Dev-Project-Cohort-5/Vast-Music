@@ -10,11 +10,13 @@ import AboutUs from './Pages/About Us'
 import Contact from './Pages/Contact'
 import Blog from './Pages/Blog'
 import NoPage from './Pages/NoPage'
+import Card from './Conponents/Card'
 
 function App() {
   return (
     <>
       <NavBar />
+      
 
       <Routes>
         <Route exact path="/" element={<Home />} />
