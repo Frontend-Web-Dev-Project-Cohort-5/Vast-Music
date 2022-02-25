@@ -12,7 +12,7 @@ const Blog = () => {
                 <h5 className="card-title">Rema Ft Chris Brown Vs Omah</h5>
                 <hr />
                 <p className="card-text">Rema linked up with Chris Brown some weeks ago which he confirmed with a picture with Brizzy himself. Later a video was released showing the duo in the studio.</p>
-                <a href="#" className="btn btn-primary">View More</a>
+                <a href=" " className="btn btn-primary">View More</a>
               </div>
             </div>
           </div>
@@ -27,7 +27,7 @@ const Blog = () => {
                 <p className="card-text">et’s say you an up and coming artiste who had suffered alot.
                   You have spent your time and money, yet you couldn’t blow beyond your village.
                 </p>
-                <a href="#" className="btn btn-primary">View More</a>
+                <a href=" " className="btn btn-primary">View More</a>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Blog = () => {
                 <hr />
                 <p className="card-text">The music star claimed Naira Marley is after his life and should be blamed for his death. Mohbad begged his fans for help and said he doesn’t want to die.
                 </p>
-                <a href="#" className="btn btn-primary">View More</a>
+                <a href=" " className="btn btn-primary">View More</a>
               </div>
             </div>
           </div>
