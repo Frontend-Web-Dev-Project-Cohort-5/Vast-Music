@@ -8,6 +8,7 @@ const AboutUs = () => {
     <br />
     <br />
     <h3>Development Team</h3>
+    {/* Dev team section */}
     <div>
         <div className="row">
           <div className="col-4">
