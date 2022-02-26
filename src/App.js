@@ -9,7 +9,9 @@ import Home from './Pages/Home'
 import AboutUs from './Pages/About Us'
 import Contact from './Pages/Contact'
 import Blog from './Pages/Blog'
+
 import NoPage from './Pages/NoPage'
+
 
 
 function App() {

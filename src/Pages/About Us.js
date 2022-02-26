@@ -1,8 +1,10 @@
 import React from 'react'
-// import './sass/main'
+import Abouthdr from '../Conponents/Abouthdr'
 
 const AboutUs = () => {
-  return <h1>About Us</h1>
+  return (
+    <Abouthdr /> 
+  )
 }
 
 export default AboutUs
