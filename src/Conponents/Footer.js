@@ -9,22 +9,23 @@ const Footer = () => {
             <img className="mb-3" src="vast.png" alt="" width={80} />
             <ul className="list-unstyled text-white mb-0">
               <li className="mb-1">
-                <a className="flinks" href=" ">
+                <a className="flinks text-white text-decoration-none" href=" ">
                   Home
                 </a>
               </li>
+              <li className="mb-1"></li>
               <li className="mb-1">
-                <a className="flinks" href=" ">
-                  About Us
-                </a>
-              </li>
-              <li className="mb-1">
-                <a className="flinks" href=" ">
+                <a className="flinks text-white text-decoration-none" href=" ">
                   Blog
                 </a>
               </li>
               <li className="mb-1">
-                <a className="flinks " href=" ">
+                <a className="flinks text-white text-decoration-none" href=" ">
+                  About Us
+                </a>
+              </li>
+              <li className="mb-1">
+                <a className="flinks text-white text-decoration-none" href=" ">
                   Contact Us
                 </a>
               </li>
