@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
@@ -56,17 +56,19 @@ const NavBar = () => {
               </li>
               <Link
                 to="contact"
-                className="nav-link text-white shadow bg-success"
+                className="nav-link text-white"
                 aria-current="page"
               >
-                Contact
+                <button className="btn btn-outline-success" type="submit">
+                  Contact
+                </button>
               </Link>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default NavBar
