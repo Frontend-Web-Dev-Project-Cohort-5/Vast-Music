@@ -5,11 +5,22 @@ const AboutUs = () => {
   return (
     <>
       <Abouthdr />
-      <br />
-      <br />
+      <p className="paraIntro mt-5 mx-5 px-5 d-flex justify-content-center align-items-center">
+        The Vast music app was developed to help movie soundtrack lovers find
+        their favorite movie soundtracks using just the movie title. We know
+        movie titles stick with you for longer,so we built this app to help
+        source that amazing tune you just cant forget and remember at the same
+        time.
+      </p>
+      <p className="Cheer mb-5 mx-5 px-5 d-flex justify-content-center align-items-center">
+        Cheers!
+      </p>
+      <p className="Teamtext fs-3 fw-bold mx-5 d-flex justify-content-center align-items-center">
+        Development Team
+      </p>
       <h3>Development Team</h3>
       {/* Dev team section */}
-      <div className="row row-cols-1 row-cols-md-3 g-4">
+      <div className="row row-cols-1 row-cols-md-3 g-4 mx-5 px-5 style={{ width: '18rem' }}">
         <div className="col">
           <div className="card h-100">
             <img src="Devteam3.jpg" className="card-img-top" alt="developer" />
@@ -52,7 +63,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="row row-cols-1 row-cols-md-3 g-4">
+      <div className="row row-cols-1 row-cols-md-3 g-4 m-5 px-5 style={{ width: '18rem' }}">
         <div className="col">
           <div className="card h-100">
             <img src="Devteam1.jpg" className="card-img-top" alt="developer" />

@@ -123,4 +123,21 @@ a:hover, a:focus {
 #contactForm .form-control {
   font-size: 16px;
 }
+
+.HeroImage:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.carousel-text {
+  z-index: 2;
+}
 /*# sourceMappingURL=main.css.map */
