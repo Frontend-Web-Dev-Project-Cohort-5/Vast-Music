@@ -25,7 +25,7 @@ const Blog = () => {
                 <a href="#!">
                   <img
                     className="card-img-top img-fluid"
-                    src="https://ashconcept.com.ng/wp-content/uploads/2022/02/project_management.png"
+                    src="https://ashconcept.com.ng/wp-content/uploads/2022/02/1.jpeg"
                     alt="..."
                   />
                 </a>
@@ -33,12 +33,11 @@ const Blog = () => {
                   <p className="text-sm text-muted mb-2">11 February, 2022</p>
                   <h3 className="h5">
                     <a className="text-decoration-none text-success" href=" ">
-                      How To Get More Reviews For Your Startup Product
+                      Rema Ft Chris Brown Vs Omah
                     </a>
                   </h3>
                   <p className="text-sm text-muted">
-                    The quality of customer service can make or break a buyer’s
-                    relationship with the seller...
+                    Rema linked up with Chris Brown some weeks ago which he confirmed with a picture with Brizzy himself. Later a video was released showing the duo in the studio.
                   </p>
                   <span className="btn btn-success text-white">Read more</span>
                 </div>
@@ -49,7 +48,7 @@ const Blog = () => {
                 <a href="#!">
                   <img
                     className="card-img-top img-fluid"
-                    src="https://ashconcept.com.ng/wp-content/uploads/2022/02/technology-transger.jpg"
+                    src="https://ashconcept.com.ng/wp-content/uploads/2022/02/2.jpeg"
                     alt="..."
                   />
                 </a>
@@ -57,12 +56,12 @@ const Blog = () => {
                   <p className="text-sm text-muted mb-2">23 February, 2022</p>
                   <h3 className="h5">
                     <a className="text-decoration-none text-success" href=" ">
-                      Increasing Engagement Among Email Subscribers
+                      BE SINCERE!! As An
                     </a>
                   </h3>
                   <p className="text-sm text-muted">
-                    The quality of customer service can make or break a buyer’s
-                    relationship with the seller...
+                    et’s say you an up and coming artiste who had suffered alot.
+                  You have spent your time and money, yet you couldn’t blow beyond your village.
                   </p>
                   <span className="btn btn-success text-white">Read more</span>
                 </div>
@@ -73,7 +72,7 @@ const Blog = () => {
                 <a href="#!">
                   <img
                     className="card-img-top img-fluid"
-                    src="https://ashconcept.com.ng/wp-content/uploads/2022/02/online-project-management-software-which-is-best.jpg"
+                    src="https://ashconcept.com.ng/wp-content/uploads/2022/02/3.jpeg"
                     alt="..."
                   />
                 </a>
@@ -81,12 +80,11 @@ const Blog = () => {
                   <p className="text-sm text-muted mb-2">15 February, 2022</p>
                   <h3 className="h5">
                     <a className="text-decoration-none text-success" href=" ">
-                      Lessons in Leadership: Q&amp;A with William Erbey
+                      Lessons in Entertainment: Q&amp;A with William Erbey
                     </a>
                   </h3>
                   <p className="text-sm text-muted">
-                    The quality of customer service can make or break a buyer’s
-                    relationship with the seller...
+                    The music star claimed Naira Marley is after his life and should be blamed for his death. Mohbad begged his fans for help and said he doesn’t want to die.
                   </p>
                   <span className="btn btn-success text-white">Read more</span>
                 </div>
@@ -104,7 +102,7 @@ const Blog = () => {
       <section className="pb-5">
         <div className="container pb-5">
           <header className="text-center mb-5 pt-5">
-            <h2 className="text-black">Free tools to grow your startup</h2>
+            <h2 className="text-black">Free tools to grow your music audience</h2>
           </header>
           <div className="row">
             <div className="col-lg-7 mx-auto">
