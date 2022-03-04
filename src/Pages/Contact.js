@@ -1,45 +1,45 @@
-import React from 'react'
+import React from "react";
 
 function Contact() {
   return (
-    <>
-      {/* Hero Section */}
-      <div>
-        <div
-          id="carouselExampleDark"
-          className="carousel carousel-dark slide"
-          data-bs-ride="carousel"
-        ></div>
-        <div className="carousel-inner">
-          <div
-            className="carousel-item active HeroImage"
-            data-bs-interval="10000"
-          >
-            <img
-              src="contactus.png"
-              className="d-block w-100"
-              alt="roku width:1512px; height:1300px;"
-            />
-            <div className="carousel-caption carousel-text d-none d-md-block">
-              <h3>Contact Us</h3>
+    <div>
+      <section className="about bg-light mt-5 border-bottom py-1">
+        <div className="container bg-light mt-5">
+          <div className="row gy-5 py-5">
+            {/* <div className="col-lg-4">
+              <div className="p-2 shadow">
+                <img className="img-fluid" src="images.jfif" alt="" />
+              </div>
+            </div> */}
+            <div className="col-lg-8">
+              <h2 className="text-uppercase text-black fw-bold py-3">
+                Contact <span className="text-success fw-bold">Us</span>
+              </h2>
+              <p className="my-3  text-black">
+                The Vast music app was developed to help movie soundtrack lovers
+                find their favorite movie soundtracks using just the movie
+                title. We know movie titles stick with you for longer,so we
+                built this app to help source that amazing tune you just cant
+                forget and remember at the same time. Cheers!
+              </p>
             </div>
           </div>
         </div>
-      </div>
-
-      {/* Body section */}
-      <section className="contact-section">
-        <div className="container">
+      </section>
+      <section className="contact-section bg-light">
+        <div className="container bg-light">
           {/* <ToastContainer position="top-center" /> */}
-          <div className="row justify-content-center">
+          <div className="row justify-content-center bg-light">
             <div className="col-md-10">
               <div className="wrapper">
                 <div className="row no-gutters">
-                  <div className="col-md-6">
-                    <div className="contact-wrap w-100 p-lg-5 p-4">
-                      <h3 className="mb-4">Send us a message</h3>
+                  <div className="col-md-6 bg-black">
+                    <div className="contact-wrap w-100 p-lg-5 p-4 bg-black">
+                      <h3 className="mb-4 rounded fw-bold">
+                        Send us a message
+                      </h3>
                       <form id="contactForm" className="contactForm">
-                        <div className="row">
+                        <div className="row bg-black">
                           <div className="col-md-12 mb-1">
                             <div className="form-group">
                               <input
@@ -87,7 +87,7 @@ function Contact() {
                               <input
                                 type="submit"
                                 value="Send Message"
-                                className="btn btn-outline-success"
+                                className="btn btn-success"
                               />
                             </div>
                           </div>
@@ -107,7 +107,8 @@ function Contact() {
                         </div>
                         <div className="text pl-3">
                           <p>
-                            <span> Address:</span> Lagos, Nigeria.
+                            <span className="fw-bold"> Address:</span> Lagos,
+                            Nigeria.
                           </p>
                         </div>
                       </div>
@@ -117,7 +118,7 @@ function Contact() {
                         </div>
                         <div className="text pl-3">
                           <p>
-                            <span> Phone: </span>
+                            <span className="fw-bold"> Phone: </span>
                             <a href="tel://123456789">+1235 2355 98</a>
                           </p>
                         </div>
@@ -128,9 +129,9 @@ function Contact() {
                         </div>
                         <div className="text pl-3">
                           <p>
-                            <span> Email: </span>
+                            <span className="fw-bold"> Email: </span>
                             <a href="mailto:info@oursite.com">
-                              {' '}
+                              {" "}
                               info@oursite.com
                             </a>
                           </p>
@@ -142,8 +143,8 @@ function Contact() {
                         </div>
                         <div className="text pl-3">
                           <p>
-                            <span> Website: </span>
-                            <a href=" ">yoursite.com</a>
+                            <span className="fw-bold"> Website: </span>
+                            <a href=" ">Vastmusic.com</a>
                           </p>
                         </div>
                       </div>
@@ -155,8 +156,8 @@ function Contact() {
           </div>
         </div>
       </section>
-    </>
-  )
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;

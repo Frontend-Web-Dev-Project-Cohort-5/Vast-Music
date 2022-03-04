@@ -1,9 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <header className=" bg-dark header fixed-top header-animated">
+    <header className=" bg-black header fixed-top header-animated">
       <nav className="navbar navbar-expand-lg navbar-light py-3">
         <div className="container">
           <a className="navbar-brand" href="index.html">
@@ -56,19 +56,17 @@ const NavBar = () => {
               </li>
               <Link
                 to="contact"
-                className="nav-link text-white"
+                className="nav-link text-white shadow-lg rounded fw-bold bg-success"
                 aria-current="page"
               >
-                <button className="btn btn-outline-success" type="submit">
-                  Contact
-                </button>
+                Contact
               </Link>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
