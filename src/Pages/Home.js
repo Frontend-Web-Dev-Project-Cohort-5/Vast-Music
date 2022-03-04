@@ -68,11 +68,11 @@ const Homepage = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      
+ {/* SEARCH BOX */}
 
-      {/* SEARCH BOX */}
-
-      <div className="row pt-5">
-        <div className="col-lg-7 mx-auto text-center">
+      <div className="row pt-5 py-5">
+        <div className="col-lg-7 mx-auto text-center py-3">
           <p className="h3 text-white mb-3">Search</p>
           <form className="p-1 rounded shadow-sm bg-Success" action=" ">
             <div className="input-group">
@@ -88,10 +88,10 @@ const Homepage = () => {
           </form>
         </div>
       </div>
-      <div className="skills justify-content-center row pb-5">
-        <p className="fmovie text-white">
-          Featured <span className="mgreen">Movies</span>
-        </p>
+      <div className="skills justify-content-center row pb-5 py-3">
+        <h3 className="text-uppercase text-black fw-bold py-3 text-center">
+          Featured <span className="text-success fw-bold">Movies</span>
+        </h3>
         <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
           {/* Card*/}
           <div className="card">
@@ -107,7 +107,7 @@ const Homepage = () => {
               <a href=" ">
                 <div
                   className="mask"
-                  style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}
+                  style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
                 />
               </a>
             </div>
@@ -137,7 +137,7 @@ const Homepage = () => {
               <a href=" ">
                 <div
                   className="mask"
-                  style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}
+                  style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
                 />
               </a>
             </div>
@@ -167,7 +167,7 @@ const Homepage = () => {
               <a href=" ">
                 <div
                   className="mask"
-                  style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}
+                  style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
                 />
               </a>
             </div>
@@ -184,7 +184,7 @@ const Homepage = () => {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Homepage
